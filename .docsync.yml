@@ -2,3 +2,6 @@ docsync:
   update_readme: true
   generate_diagram: true
   diagram_trigger: commit_message
+docstrings:
+    enabled: true
+    mode: suggest
