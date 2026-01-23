@@ -1,8 +1,8 @@
-DocSync 
+DocOnCommit
 
 Automatic Documentation Sync for GitHub Repositories
 
-DocSync is a GitHub App that automatically keeps documentation in sync with code changes.
+DocOnCommit is a GitHub App that automatically keeps documentation in sync with code changes.
 
 It listens to repository push events, analyzes code diffs at a function level, and uses LLMs to generate targeted documentation suggestions without blocking developer workflows.
 
@@ -15,7 +15,7 @@ Manual documentation is time-consuming
 
 PR reviews focus on code, not docs
 
-DocSync solves this by automating documentation updates as part of the GitHub workflow.
+DocOnCommit solves this by automating documentation updates as part of the GitHub workflow.
 
 Key Features
  
@@ -45,7 +45,6 @@ Never auto-modifies source code (review-first design)
 
 
 Architecture Diagrams (Opt-In)
-
 Mermaid diagrams generated via commit message trigger
 
 Example:
@@ -54,7 +53,6 @@ git commit -m "feat: auth refactor [diagram]"
 
 
 How It Works
-
 graph TD
   GitHub --> Webhook
   
