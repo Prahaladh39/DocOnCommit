@@ -79,7 +79,7 @@ Mermaid
 
 Installation (Development / Demo)
 
-DocSync is currently configured for development and demonstration purposes.
+DocOnCommit is currently configured for development and demonstration purposes.
 
 At the moment:
 
