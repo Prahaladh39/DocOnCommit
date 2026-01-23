@@ -48,3 +48,35 @@ GitHub App API
 Webhooks
 Gemini API (LLMs)
 Mermaid
+
+Installation (Development / Demo)
+
+DocSync is currently configured for development and demonstration purposes.
+
+At the moment:
+
+The GitHub App backend runs locally
+
+Webhooks are exposed using ngrok
+
+The app is not deployed to a public server yet
+
+🔹 How it is used right now
+
+The app is installed only by the developer (owner) on selected test repositories
+
+GitHub sends webhook events to the locally running server
+
+All functionality (diff analysis, docstring generation, PR comments) works end-to-end
+
+🔹 Production note
+
+In a production setup:
+
+The webhook server would be deployed to a cloud platform (e.g., Railway, Render)
+
+The GitHub App webhook URL would be updated once
+
+End users would simply install the app from its GitHub App page — no setup required
+
+This project focuses on core automation logic, reliability, and AI-driven workflows, rather than deployment.
