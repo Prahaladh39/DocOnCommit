@@ -11,9 +11,13 @@ PR reviews focus on code, not docs
 DocSync solves this by automating documentation updates as part of the GitHub workflow.
 
  Key Features
+ 
  Intelligent Diff Analysis
+ 
 Listens to GitHub push events
+
 Compares commits using GitHub API
+
 Detects only changed functions, not entire files
 
 Function-Level AI Understanding (Level-2 Precision)
